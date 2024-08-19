@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1BEE7"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textChooseCake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Choose your cake"
+            android:textColor="#4A148C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/arrowIcon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/img" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+       />
+        <TextView
+            android:id="@+id/tvCakeInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="cursive"
+            android:text="chiffon cake 10 psc"
+            android:textColor="#4A148C"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgCake"
+            android:layout_width="264dp"
+            android:layout_height="215dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/img_2" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="184dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="cursive"
+            android:text="price $2.0"
+            android:textColor="#4A148C"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+         />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayoutHeader"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="763dp"
+        android:layout_marginEnd="79dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="you have 0 items\n total: $0.0"
+        android:textColor="#4A148C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
